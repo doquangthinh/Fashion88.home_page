@@ -1,0 +1,208 @@
+@font-face {
+    font-family: "GothamHTF-Bold";
+    font-family: "Gotham HTF Book";
+    src: url('assets/plugin/font/gothamhtf-bold-webfont.ttf');
+    src: url('assets/plugin/font/gothamhtf-book-webfont.ttf');
+}
+
+body {
+    font-family: "Gotham HTF Book";
+}
+
+#wrapper {
+    width: 1440px;
+    margin: 0px auto;
+}
+
+#wrapper #header {
+    position: relative;
+}
+
+#wrapper #header .container .box-1 p {
+    font-size: 70px;
+    font-weight: bold;
+    color: #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#wrapper #header .container .box-1 ul {
+    position: absolute;
+    top: 165px;
+    left: 10px;
+    list-style: none;
+}
+
+#wrapper #header .container .box-1 ul li {
+    padding-bottom: 25px;
+}
+
+#wrapper #header .container .box-1 ul li a {
+    font-size: 14.3px;
+    color: #000000;
+    margin-bottom: 35px;
+}
+
+#wp-content .content-1 {
+    min-height: 700px;
+}
+
+#wp-content .box {
+    display: flex;
+    flex-direction: row;
+}
+
+#wp-content .box .content-1 {
+    position: relative;
+}
+
+#wp-content .box .content-1 h1 {
+    font-size: 50px;
+    color: #fefefe;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#wp-content .box .content-2 {
+    position: relative;
+}
+
+#wp-content .box .content-2 h1 {
+    line-height: 0.6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#wp-content .box .content-2 p {
+    font-weight: bold;
+    color: #fefefe;
+    text-transform: uppercase;
+}
+
+#wp-content .box .content-2 p.hamsa {
+    font-size: 60px;
+    padding-bottom: 0px;
+}
+
+#wp-content .box .content-2 p.technology {
+    font-size: 30px;
+}
+
+#wp-content p.tag {
+    padding: 30px 0px;
+    font-size: 17.3px;
+    text-transform: uppercase;
+}
+
+#wp-content .content-3 ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: row;
+}
+
+#wp-content .content-4 {
+    padding: 0px 95px;
+}
+
+#wp-content .content-4 .box-1 {
+    float: left;
+}
+
+#wp-content .content-4 .box-1 p {
+    font-weight: bold;
+    font-size: 17.3px;
+    text-transform: uppercase;
+}
+
+#wp-content .content-4 .box-2 {
+    float: right;
+}
+
+#wp-content .content-4 .box-1 input.search {
+    min-width: 486px;
+    min-height: 45px;
+    border: 1px solid #000000;
+    outline: none;
+}
+
+#wp-content .content-4 .box-1 button.search {
+    min-width: 45px;
+    min-height: 45px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#wp-content .content-4 .box-1 form#search {
+    margin-bottom: 28px;
+}
+
+#wp-content .content-4 .box-1 ul.social {
+    list-style: none;
+    padding-left: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+#wp-content .content-4 .box-1 ul.social li {
+    margin-right: 30px;
+}
+
+#wp-content .content-4 .box-1 ul.social li i {
+    font-size: xx-large;
+}
+
+#wp-content .content-4 .box-2 ul.services {
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+#wp-content .content-4 .box-2 ul.services li:not(li:last-child) {
+    margin-bottom: 7px;
+}
+
+#wp-content .content-4 .box-2 ul.services li:first-child {
+    font-size: 17.3px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#wp-content .content-4 .box-2 ul.services li:not(li:first-child) {
+    font-family: "Gotham HTF Book"!important;
+    font-size: 12.3px;
+}
+
+#footer {
+    clear: both;
+}
+
+#footer ul.coppy-right {
+    margin: 67px 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#footer ul.coppy-right li a {
+    color: #000000;
+    font-size: 10.78px;
+}
+
+#footer ul.coppy-right li a {
+    padding: 0px 13px;
+    border-right: 1px solid #000000;
+}
+
+#footer ul.coppy-right li:last-child a {
+    border-right: 0px;
+}
